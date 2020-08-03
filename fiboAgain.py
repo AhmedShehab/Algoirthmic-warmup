@@ -13,10 +13,8 @@ def pisano(m):
         c= (a+b)%m 
         a=b
         b=c
-         
         if (a == 0 and b == 1): 
             return i + 1
-
 
 def fibmod(n,m):
     temp = n%pisano(m)
