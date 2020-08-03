@@ -1,7 +1,3 @@
-
-
-
-
 def minco(a,n):
     coins=[4,3,1]
     minNum=[None]*(n+1)
