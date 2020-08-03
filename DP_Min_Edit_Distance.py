@@ -1,6 +1,4 @@
 import sys
-
-
 def comp(w1,w2):
     dist={}
     dist[0,0]=0
@@ -13,7 +11,6 @@ def comp(w1,w2):
             else:
                 dist[i,j]=1+min(dist[i-1,j-1],dist[i,j-1],dist[i-1,j])
     return dist[i,j]
-
 
 w1="0"+input()
 w2="0"+input()
