@@ -1,6 +1,4 @@
 # Uses Python 3
-
-
 def Stops(stop,d,m):
     count = 0
     for i in range(0,n):
@@ -10,10 +8,6 @@ def Stops(stop,d,m):
     if stop[n]>m:
         count=-1
     return count
-
-
-
-
 
 d = int(input())
 m = int(input())
